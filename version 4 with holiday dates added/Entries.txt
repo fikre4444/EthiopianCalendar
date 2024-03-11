@@ -1,0 +1,2 @@
+Entry 1.
+if the JTable thing does not work (adding an event) , then you can always have a menuItem that implements that same thing.

@@ -1,0 +1,12 @@
+Entry 1.
+if the JTable thing does not work (adding an event) , then you can always have a menuItem that implements that same thing.
+
+Entry 2.
+here's how you implement the add event option
+	first you create an object that can hold the 	
+			* date of the event
+			* The list of the events in that specific date
+	second you create an TreeSet that stores the list of Events for all the dates
+			if the user chooses the same date twice you just add the event to do to that date by searching that date
+	when the user clicks save Events you will write to a dat file all of the objects one by one.
+Check the layout in the file layoutEvent.
